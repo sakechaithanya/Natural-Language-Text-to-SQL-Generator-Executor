@@ -1,8 +1,8 @@
-🧠 Text-to-SQL-to-Execution Converter
+# 🧠 Text-to-SQL-to-Execution Converter
 
 A local Streamlit web application that converts natural language questions into SQL queries, executes them on a user-provided SQLite database, and displays the results. Powered by a quantized Defog SQLCoder 7B-2 GGUF model (runs locally via llama.cpp) — no API keys or internet connection required.
 
-Features
+# Features
 
 User Authentication: Secure login system with admin and guest users.
 
@@ -18,7 +18,7 @@ Interactive UI: Built with Streamlit for easy, real-time interaction.
 
 Local-only Solution: Works entirely on your machine, no cloud dependency.
 
-Demo
+## Demo
 
 1. Login with credentials:
 
@@ -42,8 +42,7 @@ Demo
 
    View the generated SQL query and query results instantly.
 
-# Installation
-# Prerequisites
+# Installation  & Prerequisites
 
 Python 3.10+
 
