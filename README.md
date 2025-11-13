@@ -98,8 +98,11 @@ Usage
  # Project Structure
 .
 ├── app.py                  # Main Streamlit app
+
 ├── requirements.txt        # Python dependencies
+
 ├── sqlcoder-7b-2.Q4_K_M.gguf  # Local LLM model (not included in repo)
+
 └── README.md               # Project documentation
 
 Dependencies
