@@ -20,30 +20,30 @@ Local-only Solution: Works entirely on your machine, no cloud dependency.
 
 Demo
 
-Login with credentials:
+1. Login with credentials:
 
-Admin:
+    Admin:
 
-Username: sake
+    Username: sake
 
-Password: sake123
+    Password: sake123
 
-Guest:
+    Guest:
 
-Username: guest
+    Username: guest
 
-Password: guest123
+    Password: guest123
 
-Upload your SQLite database (.db file).
+   Upload your SQLite database (.db file).
 
-Enter a natural language question about your data.
+2.Enter a natural language question about your data.
 
-Click “Generate SQL and Run”.
+3.Click “Generate SQL and Run”.
 
-View the generated SQL query and query results instantly.
+   View the generated SQL query and query results instantly.
 
-Installation
-Prerequisites
+# Installation
+# Prerequisites
 
 Python 3.10+
 
@@ -66,8 +66,6 @@ Create a virtual environment and activate it:
 python -m venv venv
 # Windows
 venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
 
 
 Install dependencies:
@@ -86,19 +84,19 @@ streamlit run app.py
 
 Usage
 
-Login with your username and password.
+1.Login with your username and password.
 
-Upload your SQLite .db file.
+2.Upload your SQLite .db file.
 
-Enter a question in plain English (e.g., "Show top 5 orders from Order_details").
+3.Enter a question in plain English (e.g., "Show top 5 orders from Order_details").
 
-Click Generate SQL and Run.
+4.Click Generate SQL and Run.
 
-The app generates a SQL query and executes it on your uploaded database.
+5.The app generates a SQL query and executes it on your uploaded database.
 
-Results are displayed as a table below the query.
+6.Results are displayed as a table below the query.
 
-Project Structure
+ # Project Structure
 .
 ├── app.py                  # Main Streamlit app
 ├── requirements.txt        # Python dependencies
