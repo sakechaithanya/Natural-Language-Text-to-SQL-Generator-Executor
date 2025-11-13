@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SQLGenie_Streamlit
 SQLGenie is an intuitive web application that transforms natural language queries into executable SQL queries, executes them on an uploaded SQLite database, and generates visualizations for the results. Built with Streamlit and powered by the Mistral API, SQLGenie simplifies database interaction for users without deep SQL knowledge.
 
@@ -51,3 +52,7 @@ SQLGenie is an intuitive web application that transforms natural language querie
 3. **Run the Application**:
   `streamlit run app.py`
   Open your browser to *http://localhost:8501* to access SQLGenie.
+=======
+# Natural-Language-Text-to-SQL-Generator-Executor
+Python project to convert natural language Text into SQL queries  and execute them
+>>>>>>> 9be5a9cc36a8cee533573654f8ae315dfef34392
